@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn{
+        @apply flex items-center gap-2 border-2 border-pink-500 font-bold text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:shadow-[10px_7px_5px_#ff3399];
+    }
+
+    .btn__primary{
+        @apply lg:py-4 lg:px-16 py-3 px-10 text-white;
+    }
+
+    .btn__secondary{
+        @apply lg:py-2 lg:px-10 py-2 px-6;
+    }
+
+    .center{
+        @apply container mx-auto;
+    }
+}   
+
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.bg{
+background-color: #292727;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ce8a8a' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23893737' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d98186' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23ab676b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ad4b60' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239d646d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23c55582' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23a3476a' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23a43b82' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23ae7196' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23950d95' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23b893b8' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.hero-gradient-heading {
+    display: inline;
+    background-image: linear-gradient(90deg, #bd10c3, #cd1590 29%, #d2177e 58%, #f3a3a3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.banner-1 {
+    height: calc(100vh - 96px);
+}
+
+.banner-2 {
+    height: calc(100vh - 645px);
+    width: 100vw;
+}
+
+.banner-3{
+    height: 100vh;
+}
+
+.banner-4{
+    height: 75vh;
+}
+
+/* .card_cardService__1TNqp {
+    min-height: 40vh;
+    margin: 0;
+    border-radius: 0.75rem;
+    background-color: var(--color-button-service);
+    padding: 0.75rem;
+    transition-duration: .3s;
+} */
+
+
+
+/* .typewriter{
+    color: #fff;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+@layer base {
+
+} */
