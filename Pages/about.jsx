@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import pp from '../profile-pic (1).png'
+import pp from '/public/profile-pic (1).png'
 import React,{memo} from 'react'
 
 const About = () => {

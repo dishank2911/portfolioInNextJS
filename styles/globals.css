@@ -33,6 +33,7 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+
 .hero-gradient-heading {
     display: inline;
     background-image: linear-gradient(90deg, #bd10c3, #cd1590 29%, #d2177e 58%, #f3a3a3);

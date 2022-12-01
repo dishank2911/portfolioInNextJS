@@ -581,6 +581,9 @@ video {
 .-z-10 {
   z-index: -10;
 }
+.z-10 {
+  z-index: 10;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1003,6 +1006,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
+
 
 .hero-gradient-heading {
     display: inline;
