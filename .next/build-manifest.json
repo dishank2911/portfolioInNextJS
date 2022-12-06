@@ -31,8 +31,8 @@
     "/resume": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/css/pages/resume.css",
-      "static/chunks/pages/resume.js"
+      "static/chunks/pages/resume.js",
+      "static/css/pages/resume.css"
     ]
   },
   "ampFirstPages": []

@@ -52,7 +52,7 @@ const Project = () => {
           <div key={x.id}> 
           <div className="bg-[#292727] p-4 shadow-base rounded-2xl overflow-hidden">
               
-                <div className="lg:w-[500px] w-[340px] aspect-square md:w-[400px] rounded-2xl pb-2 relative">
+                <div className="lg:w-[500px] w-[340px] aspect-square md:w-[400px] rounded-2xl pb-2">
                 {/* <Image srcSet={x.attributes.imgUrl} alt="My Portfolio" fill/> */}
               
               </div>

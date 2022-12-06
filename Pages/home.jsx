@@ -2,9 +2,9 @@ import React, {memo} from 'react'
 import Header from './header'
 
 const Home = () => {
+  
   return (
     <><Header />
-    Image
     <div className="flex flex-col items-center justify-center h-screen px-10 text-center py-10 text-white pt-28 bg">
 
       <p className="font-semibold text-2xl pb-6">Hello, my name is</p>
