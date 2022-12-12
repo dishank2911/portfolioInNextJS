@@ -51,7 +51,7 @@ const Skill = () => {
       </div>
 
 
-      <div className="lg:flex gap-16 items-center flex-wrap pb-20 px-5">
+      <div className="lg:flex gap-16 items-center flex-wrap pb-20">
         <div
           className="box-border min-h-[140px] min-w-[300px] py-10 px-7 bg-[#292727] rounded-3xl text-white flex flex-col flex-wrap justify-center">
           <p>2018-2022</p>

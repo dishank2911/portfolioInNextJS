@@ -572,6 +572,9 @@ video {
 .relative {
   position: relative;
 }
+.sticky {
+  position: sticky;
+}
 .top-3 {
   top: 0.75rem;
 }
@@ -580,6 +583,12 @@ video {
 }
 .-z-10 {
   z-index: -10;
+}
+.z-20 {
+  z-index: 20;
+}
+.z-10 {
+  z-index: 10;
 }
 .mx-auto {
   margin-left: auto;
@@ -779,6 +788,10 @@ video {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 .p-1 {
   padding: 0.25rem;

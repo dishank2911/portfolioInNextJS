@@ -22,7 +22,7 @@ const Header = () => {
   return (
 
     <div>
-      <header className="w-full text-white lg:block md:hidden hidden fixed" style={{
+      <header className="w-full text-white lg:block md:hidden hidden fixed z-10" style={{
         backgroundColor: navColor,
         transition: "all 1s"
       }}>
@@ -56,7 +56,7 @@ const Header = () => {
         </div>
       </header>
 
-      <header className="text-white lg:hidden md:block h-24 px-10 fixed w-full" style={{
+      <header className="text-white lg:hidden md:block h-24 px-10 fixed w-full z-10" style={{
         backgroundColor: navColor,
         transition: "all 1s"
       }}>
@@ -83,7 +83,7 @@ const Header = () => {
         </div>
       </header>
       {
-        clicked && <nav className='flex justify-center'>
+        clicked && <nav className='flex justify-center z-10'>
           <ul className='flex flex-col gap-8 justify-center items-center bg-[#292727] w-screen h-1/2 container text-white font-bold py-40'>
             <li className='group'>
               <Link href="/">Home</Link><span className='group-hover:max-w-full'></span>
