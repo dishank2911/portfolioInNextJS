@@ -572,9 +572,6 @@ video {
 .relative {
   position: relative;
 }
-.sticky {
-  position: sticky;
-}
 .top-3 {
   top: 0.75rem;
 }
@@ -583,9 +580,6 @@ video {
 }
 .-z-10 {
   z-index: -10;
-}
-.z-20 {
-  z-index: 20;
 }
 .z-10 {
   z-index: 10;
@@ -789,10 +783,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
 .p-1 {
   padding: 0.25rem;
 }
@@ -804,6 +794,9 @@ video {
 }
 .p-10 {
   padding: 2.5rem;
+}
+.p-7 {
+  padding: 1.75rem;
 }
 .py-20 {
   padding-top: 5rem;
@@ -1274,6 +1267,60 @@ background-size: cover;
 
 
 
+@media (min-width: 640px) {
+
+  .sm\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 640px) {
+
+    .sm\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    .sm\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+
+    .sm\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+
+    .sm\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+
+    .sm\:container {
+      max-width: 1536px;
+    }
+  }
+
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .sm\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+
+
+
 @media (min-width: 768px) {
 
   .md\:mx-auto {
@@ -1299,6 +1346,11 @@ background-size: cover;
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .md\:pt-7 {
@@ -1343,6 +1395,16 @@ background-size: cover;
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .lg\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:pl-24 {
