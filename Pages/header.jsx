@@ -24,11 +24,11 @@ const Header = () => {
     <div>
       <header className="w-full text-white lg:block md:hidden hidden fixed z-10" style={{
         backgroundColor: navColor,
-        transition: "all 1s"
+        transition: "all 1s",
       }}>
-        <div className='container mx-auto flex h-24 justify-between items-center'>
+        <div className='container mx-auto flex h-24 justify-between items-center '>
           <Link href="/">
-            <h1 className='font-extrabold text-4xl'><span className="hero-gradient-heading">#</span>Disha<span className='hero-gradient-heading'>nk</span><span
+            <h1 className='font-extrabold text-4xl '><span className="hero-gradient-heading ">#</span>Disha<span className='hero-gradient-heading'>nk</span><span
               className="hero-gradient-heading">.</span></h1>
           </Link>
           <nav>
@@ -56,11 +56,11 @@ const Header = () => {
         </div>
       </header>
 
-      <header className="text-white lg:hidden md:block h-24 px-10 fixed w-full z-10" style={{
+      <header className="text-white lg:hidden md:block h-24 px-10 fixed w-full z-20" style={{
         backgroundColor: navColor,
         transition: "all 1s"
       }}>
-        <div className='flex justify-between items-center py-7'>
+        <div className='flex justify-between items-center pt-7'>
 
           <div>
             <div>
@@ -84,24 +84,28 @@ const Header = () => {
       </header>
       {
         clicked && <nav className='flex justify-center z-10'>
-          <ul className='flex flex-col gap-8 justify-center items-center bg-[#292727] w-screen h-1/2 container text-white font-bold py-40'>
+          <ul className='flex flex-col gap-8 justify-center items-center bg-[#292727] w-screen h-1/2 container text-white font-bold py-40 fixed top-[96px] z-10 animatedNav'
+          style={{
+            backgroundColor: navColor,
+            transition: "all 1s"
+          }}>
             <li className='group'>
-              <Link href="/">Home</Link><span className='group-hover:max-w-full'></span>
+              <Link href="/" onClick={() => setclicked(!clicked)}>Home</Link><span className='group-hover:max-w-full'></span>
             </li>
             <li className='group'>
-              <a href="#about">About</a><span className='group-hover:max-w-full'></span>
+              <a href="#about" onClick={() => setclicked(!clicked)}>About</a><span className='group-hover:max-w-full'></span>
             </li>
             <li className='group'>
-              <a href="#services">Services</a><span className='group-hover:max-w-full'></span>
+              <a href="#services" onClick={() => setclicked(!clicked)}>Services</a><span className='group-hover:max-w-full'></span>
             </li>
             <li className='group'>
-              <a href="#project">Projects</a><span className='group-hover:max-w-full'></span>
+              <a href="#project" onClick={() => setclicked(!clicked)}>Projects</a><span className='group-hover:max-w-full'></span>
             </li>
             <li className='group'>
-              <a href="#skill">Skills</a><span className='group-hover:max-w-full'></span>
+              <a href="#skill" onClick={() => setclicked(!clicked)}>Skills</a><span className='group-hover:max-w-full'></span>
             </li>
             <li className='group'>
-              <a href="#contact">Contact</a><span className='group-hover:max-w-full'></span>
+              <a href="#contact" onClick={() => setclicked(!clicked)}>Contact</a><span className='group-hover:max-w-full'></span>
             </li>
           </ul>
         </nav>

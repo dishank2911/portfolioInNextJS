@@ -6,10 +6,16 @@ import Project from "../Pages/project"
 import Skill from "../Pages/skill"
 import Form from "../Pages/form"
 import Footer from "../Pages/footer"
+import FrontAnimation from "../Pages/frontAnimation"
+
+
 
 function App() {
+
+  
     return (<>
     {/* <Header /> */}
+    {/* <FrontAnimation /> */}
     <Home />
     <About />
     <Services />

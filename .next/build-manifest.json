@@ -27,6 +27,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/resume": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/css/pages/resume.css",
+      "static/chunks/pages/resume.js"
     ]
   },
   "ampFirstPages": []

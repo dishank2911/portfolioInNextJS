@@ -8,8 +8,8 @@ const Home = () => {
     <div className="flex flex-col items-center justify-center h-screen px-10 text-center py-10 text-white pt-28 bg">
 
       <p className="font-semibold text-2xl pb-6">Hello, my name is</p>
-      <h2 className="hero-gradient-heading font-extrabold text-7xl pb-10">Dishank Patel</h2>
-      <p className='font-semibold text-1xl'>I'm a Full Stack Developer based in India. I want to make things that make a difference.</p>
+      <h2 className="hero-gradient-heading font-extrabold lg:text-8xl text-7xl pb-10 ">Dishank Patel</h2>
+      <p className='font-semibold text-xl'>I'm a Full Stack Developer based in India. I want to make things that make a difference.</p>
       <a className="pt-10" href='/public/dishank_CV.pdf' download="dishank_CV.pdf" target='_blank'>
         <button
           className="btn btn__primary" type='button'>

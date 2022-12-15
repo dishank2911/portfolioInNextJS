@@ -71,7 +71,7 @@ const Resume = () => {
               </span>
             </div>
             <div className="w-full bg-gray-200 h-3 ">
-              <div className="bg-[#292727] h-3" style={{width: `${y.attributes.skillPercentage}`}}></div>
+              <div className="bg-[#292727] h-3 animate-pulse" style={{width: `${y.attributes.skillPercentage}`}}></div>
             </div>
           </div>
           </div>

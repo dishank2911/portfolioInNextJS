@@ -52,7 +52,7 @@ const Form = () => {
         <h5 className="text-2xl font-bold hero-gradient-heading pb-3">CONTACT US</h5>
         <p className="text-3xl font-bold">GET IN TOUCH</p>
       </div>
-      <div className="pb-20 lg:px-72 px-6 w-full">
+      <div className="pb-20 lg:px-0 px-6 w-full">
         <div className="grid md:grid-cols-2 md:gap-6 pb-4">
           <div className="relative z-0 mb-6 w-full group">
             <input type="text" name="name" id="name"
