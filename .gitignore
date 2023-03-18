@@ -3,3 +3,4 @@ config
 *-lock.json
 .env
 .env.*
+.next
