@@ -1,1 +1,0 @@
-self.__RSC_CSS_MANIFEST={"__entry_css__":{"D:\\My Personal  Portfolio\\app\\page":["D:\\My Personal  Portfolio\\styles\\globals.css","D:\\My Personal  Portfolio\\styles\\globals.css"]},"D:\\My Personal  Portfolio\\app\\page.jsx":["D:\\My Personal  Portfolio\\styles\\globals.css"],"D:\\My Personal  Portfolio\\app\\layout.jsx":["D:\\My Personal  Portfolio\\styles\\globals.css"]}
