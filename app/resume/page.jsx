@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
-import '../styles/globals.css'
+import '../../styles/globals.css'
 import Footer from '../../components/Footer';
 
 

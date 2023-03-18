@@ -1,7 +1,7 @@
 import React, { memo } from 'react'
 import Link from 'next/link';
 import Footer from '../../components/Footer'
-import '../styles/globals.css'
+import '../../styles/globals.css'
 
 const Work1 = () => {
     return (
