@@ -14,7 +14,7 @@ const Project = () => {
 
     try {
       const res = await fetch(
-        'https://portfolio-backend-puj4.onrender.com//api/projects',
+        'https://portfolio-backend-puj4.onrender.com/api/projects',
       );
       const json = await res.json();
       setProjects(json);

@@ -25,7 +25,7 @@ const Form = () => {
     }
 
     try {
-      await fetch("https://portfolio-backend-puj4.onrender.com//api/forms", {
+      await fetch("https://portfolio-backend-puj4.onrender.com/api/forms", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

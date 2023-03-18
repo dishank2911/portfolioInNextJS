@@ -15,7 +15,7 @@ const Resume = () => {
 
     try {
       const res = await fetch(
-        'https://portfolio-backend-puj4.onrender.com//api/skills',
+        'https://portfolio-backend-puj4.onrender.com/api/skills',
       );
       const json = await res.json();
       setskills(json);
