@@ -6,7 +6,7 @@ import '../../styles/globals.css'
 import Footer from '../../components/Footer';
 
 
-const Resume = () => {
+const Page = () => {
 
   const [skills, setskills] = useState([]);
 
@@ -112,4 +112,4 @@ const Resume = () => {
   )
 }
 
-export default memo(Resume)
+export default memo(Page)

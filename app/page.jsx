@@ -10,7 +10,7 @@ import FrontAnimation from "../components/frontAnimation"
 
 
 
-function App() {
+function Page() {
 
 
   return (<>
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default Page

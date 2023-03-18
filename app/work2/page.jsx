@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Footer from '../../components/Footer'
 import '../../styles/globals.css'
 
-const Work2 = () => {
+const Page = () => {
     return (
         <><section className='min-h-screen'>
             <div className='flex flex-col gap-2 justify-center items-center h-40 font-bold text-4xl bg-[#292727] text-white'>
@@ -37,4 +37,4 @@ const Work2 = () => {
     )
 }
 
-export default memo(Work2)
+export default memo(Page)
