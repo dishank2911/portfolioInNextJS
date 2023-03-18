@@ -1,19 +1,19 @@
 // import Header from "../Pages/header"
-import Home from "../Pages/home"
-import About  from "../Pages/about"
-import Services from "../Pages/services"
-import Project from "../Pages/project"
-import Skill from "../Pages/skill"
-import Form from "../Pages/form"
-import Footer from "../Pages/footer"
-import FrontAnimation from "../Pages/frontAnimation"
+import Home from "../components/home"
+import About from "../components/about"
+import Services from "../components/services"
+import Project from "../components/project"
+import Skill from "../components/skill"
+import Form from "../components/form"
+import Footer from "../components/footer"
+import FrontAnimation from "../components/frontAnimation"
 
 
 
 function App() {
 
-  
-    return (<>
+
+  return (<>
     {/* <Header /> */}
     <FrontAnimation />
     <Home />
@@ -22,9 +22,9 @@ function App() {
     <Project />
     <Skill />
     <Form />
-    <Footer /> 
-    </>
-    )
-  }
-  
-  export default App
+    <Footer />
+  </>
+  )
+}
+
+export default App
