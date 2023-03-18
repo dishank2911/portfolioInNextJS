@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/Montserrat-VariableFont_wght.woff2") format("woff2");
+}
+
 @layer components {
   .btn {
     @apply flex items-center gap-2 border-2 border-pink-500 font-bold text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:shadow-[10px_7px_5px_#ff3399];
@@ -136,11 +141,11 @@ body {
     top: 0px;
     left: 0px;
   }
-  
-  50%{
+
+  50% {
     border-radius: 50%;
   }
-  
+
   100% {
     top: 0px;
     left: -1700px;
@@ -148,8 +153,17 @@ body {
   }
 }
 
+.rotate-in-center img:hover {
+  animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
 
-.rotate-in-center img:hover{animation:rotate-in-center .6s cubic-bezier(.25,.46,.45,.94) both}
-
-@keyframes rotate-in-center{0%{transform:rotate(-360deg);opacity:0}100%{transform:rotate(0);opacity:1}}
-
+@keyframes rotate-in-center {
+  0% {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
