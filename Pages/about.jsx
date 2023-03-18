@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import pp from '/public/profile-pic (1).png'
+import pp from '/public/profile-pic.webp'
 import React,{memo} from 'react'
 
 const About = () => {
   return (
     <section className="py-20 lg:flex container mx-auto" id="about">
-            <div className="flex flex-wrap justify-center items-center aspect-auto">
+            <div className="flex flex-wrap justify-center items-center aspect-auto rotate-in-center">
                 <Image src={pp} alt="My Image"/>
             </div>
             <div className="flex flex-col justify-center lg:pl-24 flex-wrap lg:text-start text-center px-5">

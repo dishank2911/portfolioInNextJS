@@ -28,11 +28,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/resume": [
+    "/work1": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/css/pages/resume.css",
-      "static/chunks/pages/resume.js"
+      "static/css/pages/work1.css",
+      "static/chunks/pages/work1.js"
     ]
   },
   "ampFirstPages": []

@@ -147,3 +147,9 @@ body {
     opacity: 0;
   }
 }
+
+
+.rotate-in-center img:hover{animation:rotate-in-center .6s cubic-bezier(.25,.46,.45,.94) both}
+
+@keyframes rotate-in-center{0%{transform:rotate(-360deg);opacity:0}100%{transform:rotate(0);opacity:1}}
+
