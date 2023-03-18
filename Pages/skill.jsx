@@ -11,7 +11,7 @@ const Skill = () => {
   const loadSkills = useCallback(async () => {
     try {
       const res = await fetch(
-        'http://localhost:1337/api/skills',
+        'https://portfolio-backend-puj4.onrender.com//api/skills',
       );
       const json = await res.json();
       setSkills(json);
